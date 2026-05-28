@@ -53,6 +53,11 @@ Especialista en el diseño e implementación de estrategias de observabilidad "F
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 
+Cómo aplicamos Observabilidad aquí:
+Monitoreo enfocado en la salud, la saturación y la eficiencia de las consultas, evitando caídas antes de que afecten al usuario final.
+
+- AWS Aurora, PostgreSQL, SQL Server & Oracle: Configuración de Datadog Database Monitoring (DBM) para obtener visibilidad profunda a nivel de query. Análisis de planes de ejecución de consultas pesadas, monitoreo de bloqueos (locks), esperas de conexión, utilización de IOPS y métricas clave de almacenamiento para optimizar el rendimiento de la persistencia de datos.
+
 ---
 
 ## 💻 Lenguajes & Frameworks
@@ -62,6 +67,13 @@ Especialista en el diseño e implementación de estrategias de observabilidad "F
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+Cómo aplicamos Observabilidad aquí:
+Instrumentación de código nativa y automática para entender el comportamiento interno de las aplicaciones.
+
+- Java, Python & Node.js: Instrumentación de aplicaciones mediante los SDKs y agentes de runtime de Datadog (como dd-trace). Captura automática de excepciones no controladas, mapeo de dependencias HTTP/gRPC externas y recolección de métricas personalizadas integradas en el código de backend.
+
+- Apache & HTML: Monitoreo del servidor web mediante métricas de tráfico (códigos de respuesta 2xx/4xx/5xx, throughput) combinadas con estrategias de RUM (Real User Monitoring) para evaluar el impacto real del frontend en la experiencia del usuario.
 
 ---
 
@@ -73,6 +85,13 @@ Especialista en el diseño e implementación de estrategias de observabilidad "F
 ![LLM](https://img.shields.io/badge/LLM_Integration-6B46C1?style=flat-square&logo=huggingface&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 ![MCP BD](https://img.shields.io/badge/MCP_Database-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+Cómo aplicamos Observabilidad aquí:
+El nuevo estándar de la industria: llevar el control operativo al ciclo de vida de la Inteligencia Artificial.
+
+- Claude AI, ChatGPT & Gemini: Integración de herramientas de observabilidad específicas para Modelos de Lenguaje (LLM Observability / LLM Monitoring). Seguimiento y optimización de costos mediante el conteo de tokens (input/output), análisis de latencias en las respuestas de las APIs y monitoreo de tasas de error o fallos en prompts.
+
+- MCP Datadog & MCP Database: Uso del Model Context Protocol (MCP) para conectar modelos de lenguaje directamente con datos de infraestructura y bases de datos, permitiendo auditorías inteligentes, solución automatizada de problemas (Autonomous Operations) y análisis semántico de incidentes de observabilidad.
 
 ---
 
