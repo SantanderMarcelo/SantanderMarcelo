@@ -28,12 +28,13 @@ El verdadero desafío es construir plataformas capaces de comprender su propia o
 ![SIEM](https://img.shields.io/badge/Cloud_SIEM-FF0000?style=flat-square&logo=splunk&logoColor=white)
 
 Cómo aplicamos Observabilidad aquí:
-La infraestructura no se gestiona a ciegas. Cada componente cloud se despliega junto a su capa de monitoreo correspondiente.
 
-AWS (ECS Fargate & Lambda): Implementación de la extensión de Datadog para AWS Lambda y monitoreo nativo de contenedores serverless en ECS Fargate. Seguimiento exhaustivo de métricas críticas como tiempos de inicio en frío (cold starts), throttling, consumo de CPU/Memoria y concurrencia.
+La infraestructura no se gestiona a ciegas. Cada componente cloud se despliega junto a su capa de observabilidad correspondiente.
 
-App Container, Docker & Kubernetes: Orquestación y monitoreo de microservicios mediante agentes de Datadog configurados como DaemonSets en Kubernetes. Autodescubrimiento de contenedores (Autodiscovery) para recolectar métricas de rendimiento de forma dinámica a medida que la infraestructura escala.
----
+- AWS (ECS Fargate & Lambda): Implementación de la extensión de Datadog para AWS Lambda y monitoreo nativo de contenedores serverless en ECS Fargate. Seguimiento exhaustivo de métricas críticas como tiempos de inicio en frío (cold starts), throttling, consumo de CPU/Memoria y concurrencia.
+
+- App Container, Docker & Kubernetes: Orquestación y monitoreo de microservicios mediante agentes de Datadog configurados como DaemonSets en Kubernetes. Autodescubrimiento de contenedores (Autodiscovery) para recolectar métricas de rendimiento de forma dinámica a medida que la infraestructura escala.
+
 
 ## 🗄️ Bases de Datos
 
