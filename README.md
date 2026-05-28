@@ -18,6 +18,13 @@ El verdadero desafío es construir plataformas capaces de comprender su propia o
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
+Cómo aplicamos Observabilidad aquí:
+
+La infraestructura no se gestiona a ciegas. Cada componente cloud se despliega junto a su capa de observabilidad correspondiente.
+
+- AWS (ECS Fargate & Lambda): Implementación de la extensión de Datadog para AWS Lambda y monitoreo nativo de contenedores serverless en ECS Fargate. Seguimiento exhaustivo de métricas críticas como tiempos de inicio en frío (cold starts), throttling, consumo de CPU/Memoria y concurrencia.
+
+- App Container, Docker & Kubernetes: Orquestación y monitoreo de microservicios mediante agentes de Datadog configurados como DaemonSets en Kubernetes. Autodescubrimiento de contenedores (Autodiscovery) para recolectar métricas de rendimiento de forma dinámica a medida que la infraestructura escala.
 ---
 
 ## 📊 Observabilidad & Seguridad
@@ -27,13 +34,16 @@ El verdadero desafío es construir plataformas capaces de comprender su propia o
 ![Datadog Trazas](https://img.shields.io/badge/Datadog_Trazas-632CA6?style=flat-square&logo=datadog&logoColor=white)
 ![SIEM](https://img.shields.io/badge/Cloud_SIEM-FF0000?style=flat-square&logo=splunk&logoColor=white)
 
-Cómo aplicamos Observabilidad aquí:
+Descripción general:
 
-La infraestructura no se gestiona a ciegas. Cada componente cloud se despliega junto a su capa de observabilidad correspondiente.
+Especialista en el diseño e implementación de estrategias de observabilidad "Full-Stack" y seguridad proactiva utilizando el ecosistema de Datadog. Enfoque centrado en transformar telemetría cruda en insights accionables para el negocio, reduciendo drásticamente el MTTR (Mean Time to Resolution) y garantizando la resiliencia operativa.
 
-- AWS (ECS Fargate & Lambda): Implementación de la extensión de Datadog para AWS Lambda y monitoreo nativo de contenedores serverless en ECS Fargate. Seguimiento exhaustivo de métricas críticas como tiempos de inicio en frío (cold starts), throttling, consumo de CPU/Memoria y concurrencia.
+Datadog APM: Monitoreo del rendimiento de aplicaciones de extremo a extremo, análisis de cuellos de botella en código, optimización de latencias y gestión de perfiles de rendimiento en entornos productivos.
 
-- App Container, Docker & Kubernetes: Orquestación y monitoreo de microservicios mediante agentes de Datadog configurados como DaemonSets en Kubernetes. Autodescubrimiento de contenedores (Autodiscovery) para recolectar métricas de rendimiento de forma dinámica a medida que la infraestructura escala.
+Datadog Logs & Trazas (Distributed Tracing): Correlación unificada de logs y trazas distribuidas para obtener un contexto completo de cada petición. Implementación de pipelines de procesamiento de logs, tags personalizados para trazabilidad del negocio y monitoreo en tiempo real.
+
+Cloud SIEM: Configuración de reglas de detección de amenazas en tiempo real sobre eventos de infraestructura y logs de auditoría, integrando la seguridad directamente en el flujo de operaciones (DevSecOps).
+
 ---
 
 ## 🗄️ Bases de Datos
