@@ -38,11 +38,11 @@ Descripción general:
 
 Especialista en el diseño e implementación de estrategias de observabilidad "Full-Stack" y seguridad proactiva utilizando el ecosistema de Datadog. Enfoque centrado en transformar telemetría cruda en insights accionables para el negocio, reduciendo drásticamente el MTTR (Mean Time to Resolution) y garantizando la resiliencia operativa.
 
-Datadog APM: Monitoreo del rendimiento de aplicaciones de extremo a extremo, análisis de cuellos de botella en código, optimización de latencias y gestión de perfiles de rendimiento en entornos productivos.
+- Datadog APM: Monitoreo del rendimiento de aplicaciones de extremo a extremo, análisis de cuellos de botella en código, optimización de latencias y gestión de perfiles de rendimiento en entornos productivos.
 
-Datadog Logs & Trazas (Distributed Tracing): Correlación unificada de logs y trazas distribuidas para obtener un contexto completo de cada petición. Implementación de pipelines de procesamiento de logs, tags personalizados para trazabilidad del negocio y monitoreo en tiempo real.
+- Datadog Logs & Trazas (Distributed Tracing): Correlación unificada de logs y trazas distribuidas para obtener un contexto completo de cada petición. Implementación de pipelines de procesamiento de logs, tags personalizados para trazabilidad del negocio y monitoreo en tiempo real.
 
-Cloud SIEM: Configuración de reglas de detección de amenazas en tiempo real sobre eventos de infraestructura y logs de auditoría, integrando la seguridad directamente en el flujo de operaciones (DevSecOps).
+- Cloud SIEM: Configuración de reglas de detección de amenazas en tiempo real sobre eventos de infraestructura y logs de auditoría, integrando la seguridad directamente en el flujo de operaciones (DevSecOps).
 
 ---
 
