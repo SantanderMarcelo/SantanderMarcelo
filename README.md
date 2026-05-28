@@ -1,6 +1,6 @@
 # Hi, I'm Marcelo Santander 👋
 
-**ArchitectArCloud & DevOps Engineer · Backend Developer · AI/LLM Integrator**
+**ArchitectAr Cloud & DevOps Engineer · Backend Developer · AI/LLM Integrator**
 🇨🇱 Chile · FYAGS
 
 > Apasionado por construir infraestructura cloud robusta, soluciones de observabilidad y sistemas potenciados por IA. Creo en la automatización inteligente y en llevar la IA a producción de forma responsable. DTrabajo donde las plataformas no solo observan:también entienden, razonan y actúan.Mi gran desafío ya no es solamente Observar.
