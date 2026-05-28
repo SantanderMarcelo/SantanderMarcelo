@@ -3,7 +3,7 @@
 **ArchitectAr Cloud & DevOps Engineer · Backend Developer · AI/LLM Integrator**
 🇨🇱 Chile · FYAGS
 
-> Apasionado por construir infraestructura cloud robusta, soluciones de observabilidad y sistemas potenciados por IA. Creo en la automatización inteligente y en llevar la IA a producción de forma responsable. DTrabajo donde las plataformas no solo observan:también entienden, razonan y actúan.Mi gran desafío ya no es solamente Observar.
+> Apasionado por construir infraestructura cloud robusta, soluciones de observabilidad y sistemas potenciados por IA. Creo en la automatización inteligente y en llevar la IA a producción de forma responsable. Trabajo donde las plataformas no solo observan:también entienden, razonan y actúan.Mi gran desafío ya no es solamente Observar.
 
 El verdadero desafío es construir plataformas capaces de comprender su propia operación utilizando Autonomous Operations.
 
